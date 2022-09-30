@@ -5,5 +5,3 @@
 ### 3. 访问 http://localhost:8080/hello、http://localhost:8080/hello1 能正常访问
 ### 4. 停掉 dubbo-provider-service 服务，其中通过配置 dubbo.protocol.port=20886 设置dubbo的端口为20886（用于模拟不同的ip启动的情况）
 ### 5. 再次访问 http://localhost:8080/hello、http://localhost:8080/hello1 其中一个接口报错，一个接口正常访问
-# dubbo-samples
-# dubbo-samples
