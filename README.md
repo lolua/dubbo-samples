@@ -1,4 +1,6 @@
 
+# DUBBO服务重启切换后，不能通知到服务消费者 复现Sample
+
 ## 启动顺序
 ### 1. 先启动 dubbo-provider-service 服务，其中通过配置 dubbo.protocol.port=20885 设置dubbo的端口为20885
 ### 2. 然后启动 dubbo-consumer-service 服务
